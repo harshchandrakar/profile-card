@@ -1,0 +1,19 @@
+.detail {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(38, 38, 38);
+  max-width: 220px;
+  overflow-wrap: break-word;
+}
+label {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(38, 38, 38);
+}
+button {
+  border-radius: 20px;
+  background-color: aquamarine;
+  border: 0;
+  width: 6rem;
+}

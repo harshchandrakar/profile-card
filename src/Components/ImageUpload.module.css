@@ -1,0 +1,34 @@
+.imgwrap {
+  position: relative;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.imgupload:before {
+  content: url(./Upload-02.svg);
+  font-size: 90px;
+  position: absolute;
+  padding-top: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #63d3a6;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.imgupload:hover:before {
+  opacity: 1;
+}
+input[type="file"] {
+  display: none;
+}
+img {
+  height: 200px;
+  width: 200px;
+}

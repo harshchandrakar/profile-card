@@ -1,0 +1,11 @@
+.details {
+  margin: 1em;
+}
+.imgwrap {
+  position: relative;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
